@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta charset="utf-8">
+  <title>Le Café des Chats ル・カフェ・デ・シャ</title>
+  <meta name="description" content="猫と同じ空間でお茶を飲めるカフェ「ル・カフェ・デ・シャ」のWebサイトです。">
+  <meta name="keywords" content="Le Café des Chats,ル・カフェ・デ・シャ,レシピ,Chipie,深大寺,国産小麦,天然酵母,有機栽培,パン,ケーキ,コーヒー">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&family=Reenie+Beanie&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+ <script type="text/javascript">
+  $(window).scroll(function(){
+   var top = $('.movie').offset().top;
+   var position = top - $(window).height();
+   var position_bottom = top + $('.movie').height();
+   if($(window).scrollTop() > position && $(window).scrollTop() < position_bottom){
+    $('.item-blk').addClass('active');
+   }else{
+    $('.item-blk').removeClass('active');
+   }
+  })
+ </script>
+ <script type="text/javascript">
+　　$(window).load(function() {
+　　　$('a[href^=#]').click(function() {
+　　　　var speed = 500;
+　　　　var href = $(this).attr("href");
+　　　　var target = $(href == "#" || href == "" ? 'html' : href);
+　　　　var position = target.offset().top;
+　　　　$("html, body").animate({
+　　　　　scrollTop: position
+　　　　}, speed, "swing");
+　　　　return false;
+　　　});
+　　});
+　</script>
+<script type="text/javascript">
+ $(function(){
+  $('#nav-toggle').click(function(){
+   $('body').toggleClass('open');
+  });
+ });
+ </script>
+ <!--[if lte IE 9]>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flexibility/2.0.1/flexibility.js"></script>
+<script>
+$(function(){
+flexibility(document.documentElement);
+});
+</script>
+<![endif]-->
+</head>
+
+<body id="home">
+  <header id="page-header">
+    <div class="inner">
+      <a href="#home">
+      <h1 class="logo"><span>Le Café des Chats</span>ル・カフェ・デ・シャ</h1></a>
+      <div id="nav-toggle" class="sp">
+      <div>
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+      </div>
+
+      <nav class="header-nav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#drink">Drink</a></li>
+        </ul>
+        <ul class="sns">
+          <li><a href="#">
+            <img src="images/icon_fb_w.svg" alt="facebook">
+          </a></li>
+          <li><a href="#">
+            <img src="images/icon_tw.svg" alt="twitter">
+          </a></li>
+          <li><a href="#">
+            <img src="images/icon_in.svg" alt="instagram">
+          </a></li>
+          <li><a href="contact/index.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div id="kv">
+      <div class="inner">
+        <p>
+          ル・カフェ・デ・シャは、<br>
+          猫と一緒にゆったりとした時間を<br>
+          楽しめるオアシスです。<br>
+          ゆっくりと開放的な時間を<br>
+          お過ごしください。
+        </p>
+      </div>
+    </div>
+
+    <section id="new_arrivals">
+      <h1><span>New Arrivals</span>新着メニュー</h1>
+      <div class="inner">
+        <div class="item-blk">
+          <div class="item">
+            <p class="photo"><img src="images/new_arrivals01.jpg" alt="フレッシュベリージュース"></p>
+            <h2>フレッシュベリージュース</h2>
+            <p class="text">4種類のベリー（いちご・カシス・ラズベリー・ブルーベリー）、プルーンを合わせました。ベリーの甘酸っぱさですっきりの一杯です。</p>
+            <p class="price">500円（＋税）</p>
+          </div>
+          <div class="item">
+            <p class="photo"><img src="images/new_arrivals02.jpg" alt="チキンブリトー"></p>
+            <h2>チキンブリトー</h2>
+            <p class="text">ローズマリーやバジル、タイムなどの様々なハーブの香りが爽快なレモンドレッシングと相まって絶品です。</p>
+            <p class="price">700円（＋税）</p>
+          </div>
+          <div class="item">
+            <p class="photo"><img src="images/new_arrivals03.jpg" alt="フレッシュキウイジュース"></p>
+            <h2>フレッシュキウイジュース</h2>
+            <p class="text">生のキウイを1個半使った贅沢なフルーツジュース！ツブツブ食感も残しつつさっぱりとした甘さです。</p>
+            <p class="price">500円（＋税）</p>
+          </div>
+          <div class="item">
+            <p class="photo"><img src="images/new_arrivals04.jpg" alt="ガトーショコラ"></p>
+            <h2>ガトーショコラ</h2>
+            <p class="text">ベルギー産チョコを使用した濃厚なチョコケーキです。ストロベリーの酸味がアクセントになって口の中に広がります。</p>
+            <p class="price">600円（＋税）</p>
+          </div>
+        </div>
+        <p class="btn"><a href="#">新着メニュー一覧</a></p>
+      </div>
+    </section>
+
+    <section id="about">
+      <h1><span>About</span>ル・カフェ・デ・シャについて</h1>
+      <div class="inner">
+        <p class="text">
+          ル・カフェ・デ・シャは猫カフェではありません。<br>
+          あくまで「猫と同じ空間でお茶を飲める」ことに重点を置き、<br>
+          人に媚びない自由気ままな猫の姿を<br>
+          店内で自然に楽しむことを目的としています。<br>
+          また国産小麦と天然酵母のパンやケーキ、<br>
+          有機栽培のコーヒーなど<br>
+          体に優しいメニューをご用意しております。<br>
+          ル・カフェ・デ・シャで<br>
+          癒やしのひとときをお過ごしください。
+        </p>
+        <p class="btn"><a href="#">看板猫シピ（Chipie）について</a></p>
+      </div>
+    </section>
+
+    <section id="drink">
+      <h1><span>Drink</span>ドリンクメニュー</h1>
+      <div class="movie">
+        <video muted="" src="movie/Espresso-Lungo.mp4" poster="movie/Espresso-Lungo.jpg"autoplay="" loop=""></video>
+        <div class="item-blk">
+          <div class="item">
+            <p class="photo"><img src="images/drink01.jpg" alt="カフェラテ"></p>
+            <h2>カフェラテ</h2>
+            <p class="price">700円（＋税）</p>
+          </div>
+          <div class="item">
+            <p class="photo"><img src="images/drink02.jpg" alt="ルイボスミントティー"></p>
+            <h2>ルイボスミントティー</h2>
+            <p class="price">600円（＋税）</p>
+          </div>
+          <div class="item">
+            <p class="photo"><img src="images/drink03.jpg" alt="焼きマシュマロショコラドリンク"></p>
+            <h2>焼きマシュマロショコラドリンク</h2>
+            <p class="price">800円（＋税）</p>
+          </div>
+          <div class="item">
+            <p class="photo"><img src="images/drink04.jpg" alt="イクス・イクス・ビター"></p>
+            <h2>イクス・イクス・ビター</h2>
+            <p class="price">800円（＋税）</p>
+          </div>
+          <div class="item">
+            <p class="photo"><img src="images/drink05.jpg" alt="フレッシュライムティー"></p>
+            <h2>フレッシュライムティー</h2>
+            <p class="price">600円（＋税）</p>
+          </div>
+          <div class="item">
+            <p class="photo"><img src="images/drink06.jpg" alt="ソルティ・ドッグ・コリンズ"></p>
+            <h2>ソルティ・ドッグ・コリンズ</h2>
+            <p class="price">800円（＋税）</p>
+          </div>
+        </div>
+        <p class="btn"><a href="drink/index.html">ドリンクメニュー一覧</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="inner">
+      <div class="footer-blk">
+        <h3>Shop Info</h3>
+        <ul>
+          <li>182-0011東京都調布市深大寺北町1-2-1</li>
+          <li>月火水定休 10:00 - 17:00</li>
+        </ul>
+      </div>
+      <div class="footer-blk">
+        <h3>Phone & Mail</h3>
+        <ul>
+          <li><a href="tel:0420000000">042-000-0000</a></li>
+          <li><a href="mailto:shop@le_cafe_des_chats.jp">shop@le_cafe_des_chats.jp</a></li>
+        </ul>
+      </div>
+
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#drink">Drink</a></li>
+          <li><a href="contact/index.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <p class="logo"><span>Le Café des Chats</span>ル・カフェ・デ・シャ</p>
+
+    <nav class="sns">
+      <ul>
+        <li><a href="#"><img src="images/icon_fb_w.svg" alt="facebook"></a></li>
+        <li><a href="#"><img src="images/icon_tw_w.svg" alt="twitter"></a></li>
+        <li><a href="#"><img src="images/icon_in_w.svg" alt="instagram"></a></li>
+      </ul>
+    </nav>
+
+    <p class="copyright">© 2019 Le Café des Chats. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>

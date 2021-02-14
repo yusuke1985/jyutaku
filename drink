@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Le Café des Chats ル・カフェ・デ・シャ</title>
+    <meta name="description" content="猫と同じ空間でお茶を飲めるカフェ「ル・カフェ・デ・シャ」の「Drink」のページです。">
+    <meta name="keywords" content="Le Café des Chats,ル・カフェ・デ・シャ,レシピ,Chipie,深大寺,国産小麦,天然酵母,有機栽培,パン,ケーキ,コーヒー">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP|Reenie+Beanie&display=swap" rel="stylesheet">
+</head>
+
+<body id="drink">
+    <header id="page-header">
+        <div class="inner">
+            <a href="../index.html">
+                <h1 class="logo"><span>Le Café des Chats</span>ル・カフェ・デ・シャ</h1>
+            </a>
+            <div id="nav-toggle" class="sp">
+              <div>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              </div>
+
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="../index.html#about">About</a></li>
+                    <li><a href="../index.html#drink">Drink</a></li>
+                </ul>
+                <ul class="sns">
+                    <li><a href="#"><img src="../images/icon_fb.svg" alt="facebook"></a></li>
+                    <li><a href="#"><img src="../images/icon_tw.svg" alt="twitter"></a></li>
+                    <li><a href="#"><img src="../images/icon_in.svg" alt="instagram"></a></li>
+                    <li><a href="contact/index.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <header>
+            <div class="inner">
+                <h1><span>Drink</span>ドリンクメニュー</h1>
+            </div>
+        </header>
+        <div class="inner">
+            <div class="grid-blk">
+                <div class="grid-a"></div>
+                <div class="grid-b"></div>
+                <div class="grid-c"></div>
+                <div class="grid-d"></div>
+                <div class="grid-e"></div>
+                <div class="grid-f"></div>
+                <div class="grid-g"></div>
+                <div class="grid-h"></div>
+                <div class="grid-i"></div>
+                <div class="grid-j"></div>
+                <div class="grid-k"></div>
+                <div class="grid-l"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="inner">
+            <div class="footer-blk">
+                <h3>Shop Info</h3>
+                <ul>
+                    <li>182-0011東京都調布市深大寺北町1-2-1</li>
+                    <li>月火水定休 10:00 - 17:00</li>
+                </ul>
+            </div>
+            <div class="footer-blk">
+                <h3>Phone & Mail</h3>
+                <ul>
+                    <li><a href="tel:0420000000">042-000-0000</a></li>
+                    <li><a href="mailto:shop@le_cafe_des_chats.jp">shop@le_cafe_des_chats.jp</a></li>
+                </ul>
+            </div>
+
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="../index.html#about">About</a></li>
+                    <li><a href="../index.html#drink">Drink</a></li>
+                    <li><a href="contact/index.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <p class="logo"><span>Le Café des Chats</span>ル・カフェ・デ・シャ</p>
+
+        <nav class="sns">
+            <ul>
+                <li><a href="#"><img src="../images/icon_fb_w.svg" alt="facebook"></a></li>
+                <li><a href="#"><img src="../images/icon_tw_w.svg" alt="twitter"></a></li>
+                <li><a href="#"><img src="../images/icon_in_w.svg" alt="instagram"></a></li>
+            </ul>
+        </nav>
+
+        <p class="copyright">© 2019 Le Café des Chats. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
